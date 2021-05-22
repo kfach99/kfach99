@@ -1,0 +1,157 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+/*Barre de Navigation*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: azure;
+    padding: 0px 25px;
+    position: fixed;
+    top: 0;
+    width: 97%;
+}
+
+nav .left{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .left img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+nav .left .tabs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+nav .left .tabs p{
+    margin-left: 15px;
+    cursor: pointer;
+    color: #909191;
+}
+nav .left .tabs p:hover{
+    color: azure;
+}
+nav .right{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .right p{
+    margin-right: 15px;
+    cursor: pointer;
+}
+/* Fin de la barre de navigation  */
+
+
+/*films et series*/
+
+.films-et-series {
+    background-color: #191a1a;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+.films-et-series .section {
+    margin-bottom: 60px;
+}
+
+.films-et-series .section h2 {
+    color: azure;
+}
+
+.films-et-series .section .list {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+
+}
+/*
+.list::-webkit-scrollbar{
+    overflow: hidden;
+    width: 5px;
+}
+*/
+
+
+
+.films-et-series .section a{
+    padding-left: 5px;
+    transition: transform 0.25s;
+  }
+
+.films-et-series .section a:hover{
+    transform:scale(1.05);
+  }
+
+.films-et-series .section a img {
+    height: 140px;
+}
+
+
+/*Fin de films et series*/
+
+/*Pied de page*/
+footer{
+    background-color: #000;
+    padding: 25px 100px;
+    color: #909191;
+}
+
+footer h5 a {
+    color: #909191;
+}
+
+footer h5 a:hover{
+    color: azure;
+}
+
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+footer  p{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+footer  p:hover{
+    color: azure;
+}
+/*Fin de pied de page*/
+
+
+/*costum scroll */
+
+/* width & height */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: rgb(215, 23, 31);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(230, 109, 113);
+}
+
+/* Fin de costum scroll */
